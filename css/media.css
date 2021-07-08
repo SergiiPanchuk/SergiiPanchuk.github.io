@@ -1,0 +1,20 @@
+@media (max-width: 1199px) {
+	.main ul li{
+		margin-right: 10px;
+	}
+	.event .col-lg-4{
+		padding: 0;
+	}
+	.event ul{
+		padding: 0;
+	}
+	.cocofine, .horizontal-separator{
+		display: none;
+	}
+}
+@media (max-width: 991px) {
+
+}
+@media (max-width: 767px) {
+
+} 

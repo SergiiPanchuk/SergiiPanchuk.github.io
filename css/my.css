@@ -1,0 +1,326 @@
+@font-face{
+	font-family: 'Gilroy400';
+	src: url(../font/Gilroy-Light.ttf);
+}
+@font-faca{
+	font-family: 'Gilroy500';
+	src: url(../font/Gilroy-Regular.ttf);
+}
+@keyframes move {
+	from{
+		margin-left: 0;
+	}
+	to{
+		margin-left: 800px; 
+	}
+}
+.main{
+	background-position: center center;
+	width: 100%;
+	height: 950px;
+	padding-top: 25px;
+	font-family: 'Gilroy400', sans-serif;
+	font-size: 14px;
+}
+.main ul li{
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 40px;
+}
+.main ul li a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.main ul li a:hover{
+
+	border-bottom: 1px solid #FFFFFF;
+	transition: all 0.5s;
+}
+.main ul .main-account{
+	margin-right: 20px;
+}
+.main h1{
+	font-family: 'Noto Serif', serif;
+	font-weight: 700;
+	font-size: 36px;
+	color: #FFFFFF;
+	margin-top: 520px;
+}
+.main .main-btn{
+	width: 260px;
+	height: 50px;
+	margin-top: 50px;
+	border: 1px solid #FFFFFF;
+	background-color: Transparent;
+	font-family: 'Gilroy400', sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+.main .main-btn:hover{
+	color: #000000;
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+
+}
+.horizontal-separator{
+	margin-top: 80px;
+}
+
+/*Блок к мероприятиям*/
+
+.events{
+	background: #E5E5E5;
+	padding-bottom: 120px;
+}
+.events p{
+	font-family: 'Gilroy400', sans-serif;
+	font-size: 21px;
+	text-align: center;
+	margin-top: 100px;
+}
+.events h2{
+	font-family: 'Noto Serif', serif;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 15px;
+	font-weight: 700;
+}
+.events .btn_event{
+	width: 100%;
+	height: 60px;
+	border: 1px solid #D6D6D6;
+	background-color: Transparent;
+	font-family: 'Gilroy500', sans-serif;
+	font-size: 18px;
+	color: #333333;
+	text-transform: uppercase;
+	margin:60px 0 25px 0;
+}
+.events .btn_event:hover{
+	background-color: #333333;
+	color: #FFFFFF;
+}
+.events .img_event img{
+	display: block;
+	width: 100%;
+}
+.events .img_event{
+	margin-top: 30px;
+}
+.salon{
+	background-image: url(../img/bck_salon.png);
+	color: #FFFFFF;
+	text-align: center;
+}
+.animation{
+	animation: move 2s linear reverse;
+}
+.salon span{
+	display: block;
+	margin-top: 100px;
+	font-family: 'Gilroy400', sans-serif;
+	font-size: 21px;
+}
+.salon h3{
+	display: block;
+	font-family: 'Noto Serif', serif;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 15px;
+	font-weight: 700;
+}
+.salon p{
+	display: block;
+	font-family: 'Gilroy400', sans-serif;
+	font-size: 18px;
+	display: inline-block;
+	width: 730px;
+	color: #ffffff;
+}
+.salon button{
+	margin: 60px 0 100px 0;
+	height: 51px;
+	width: 224px;
+	border-radius: 0px;
+	font-family: 'Gilroy500', sans-serif;
+	font-size: 18px;
+	color: #333333;
+	text-transform: uppercase;
+	background-color: #ffffff;
+	border: 1px solid  #333333;
+}
+.salon button:hover{
+    background-color: #999999;
+    color: #ffffff;
+}
+
+/*--Блок лучшие совети-*/
+
+.advice{
+	background: #E5E5E5;
+	padding: 120px 0 150px 0;
+	text-align: center;
+}
+.advice span{
+	font-family: 'Gilroy400', sans-serif;
+	font-size: 21px;
+	color: #333333;
+}
+.advice p {
+	font-family: 'Noto Serif', serif;
+	font-size: 30px;
+	font-weight: 700;
+	padding-bottom: 60px;
+	color: #333333;
+}
+.advice .advice1{
+	background-image: url(../img/bg-advice1.png);
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 370px;
+	padding-top: 240px;
+}
+.advice .advice2{
+	background-image: url(../img/bg-advice2.png);
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 370px;
+	padding-top: 240px;
+}
+.advice .advice3{
+	background-image: url(../img/bg-advice3.png);
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 370px;
+	padding-top: 240px;
+}
+.advice article a {
+	font-family: 'Gilroy400', sans-serif;
+	font-size: 21px;
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+.advice article a:hover{
+	font-size: 25px;
+	transition: all 0.5s;
+}
+.advice button{
+	font-family: 'Gilroy500', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-top: 60px;
+	padding: 15px 35px;
+	background: #333333;
+}
+.advice button:hover{
+	background: #444444;	
+}
+
+/*--Блок ексклюзивная рассылка--*/
+
+.mailing{
+	background: url(../img/bck_salon.png) no-repeat center;
+	text-align: center;
+	padding-bottom: 100px;
+}
+.mailing .mailing-header{
+	font-family: 'Gilroy400', sans-serif;
+	font-size: 21px;
+	color: #ffffff;
+	margin-top: 100px;
+}
+.mailing .mailing-header p{
+	color: #ffffff;
+}
+.mailing .mailing-header h4{
+	font-family: 'Noto Serif', serif;
+	font-size: 30px;
+	font-weight: 700;
+	padding-bottom: 60px;
+	color: #ffffff;
+}
+.mailing .advantage p{
+	font-family: 'Gilroy400', sans-serif;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: left;
+	margin-left: 300px;
+}
+.mailing-form{
+	border: solid 1px #ffffff;
+	width: 448px;
+	height: 113px;
+}
+.mailing-form form{
+	background: #ffffff;
+	width: 418px;
+	height: 85px;
+	margin: 14px auto;
+	padding: 20px;
+}
+.mailing-form form input{
+	height: 45px;
+	border: solid 1px #D6D6D6;
+}
+.mailing-form form .btn-submit{
+	width: 150px;
+	background: #333333;
+	border: solid 1px #FFFFFF;
+	font-family: 'Gilroy500', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.mailing-form form .btn-submit:hover{
+	background: #444444;
+}
+
+/*--Футер--*/
+footer {
+	background: #E5E5E5;
+	padding: 80px 0 20px 0;
+}
+footer h5{
+	display: block;
+	border-bottom: solid 1px #333333;
+	font-family: 'Gilroy500', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #333333;
+	padding-bottom: 10px;
+}
+footer a, p{
+	display: block;
+	font-family: 'Gilroy400', sans-serif;
+	font-size: 14px;
+	color: #333333;
+	text-decoration: none;
+}
+footer a img{
+	margin-right: 15px;
+}
+footer .social a{
+	display: inline;
+}
+footer .social i{
+	margin-right: 25px;
+}
+footer .social .youtube:hover{
+	color: red;
+}
+footer .social .vk:hover{
+	color: #0066CC;
+}
+footer .social .facebook:hover{
+	color: #0033CC;
+}
+footer .social .telegram:hover{
+	color: #0099FF;
+}
+footer .social .etsy:hover{
+	color: #ff9900;
+}

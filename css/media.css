@@ -1,3 +1,8 @@
+@media (min-width: 1200px) { 
+	.main ul li{
+		margin-right: 10px;
+	}
+}
 @media (max-width: 1199px) {
 	.main ul li{
 		margin-right: 10px;
@@ -11,10 +16,75 @@
 	.cocofine, .horizontal-separator{
 		display: none;
 	}
+	.events {
+    padding-bottom: 20px;
+	}
+	.advice .advice1, .advice .advice2, .advice .advice3 {
+    width: 300px;
+	}
+	.advice {
+    padding: 50px 0 50px 0;
+	}
+	.mailing{
+	   padding-bottom: 10px;
+	}
+	.mailing .mailing-header {
+    margin-top: 10px;
+	}
+	.mailing .advantage p {
+    margin-left: 50px;
+	}
+	footer {
+    padding: 20px 0 20px 0;
+	}
+	footer .social a {
+    display: inline-block;
+    max-width: 40px;
+	}
 }
 @media (max-width: 991px) {
-
+	.main h1 {
+    margin-top: 280px;
+	}
+	.main {
+    height: 650px;
+	}
+	.events .btn_event {
+    margin: 0px 0 25px 0;
+	}
+	.advice .advice1, .advice .advice2, .advice .advice3 {
+    width: 230px;
+    height: 300px;
+    padding-top: 190px;
+	}
+	.mailing-form {
+    width: 428px;
+	}
 }
 @media (max-width: 767px) {
-
+	.salon span {
+    font-size: 18px;
+	}
+	.salon h3 {
+    font-size: 26px;
+	}
+	.salon p {;
+    font-size: 14px;
+    width: 430px;
+    margin-top: 20px;
+	}
+	.advice .advice1, .advice .advice2, .advice .advice3 {
+    width: 180px;
+	}
+	.advice article a {
+    font-size: 18px;
+	}
+	.advantage {
+	padding-left: 140px; 
+	}
+	.mailing-form{
+		margin: 0 auto;
+	}
 } 
+@media (max-width: 575.98px) { 
+}

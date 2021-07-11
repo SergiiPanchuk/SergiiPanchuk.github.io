@@ -62,13 +62,17 @@
 	}
 }
 @media (max-width: 767px) {
+	.main{
+	background: url(../img/bgc.jpg) no-repeat center center;
+	background-size:cover; 
+	}
 	.salon span {
     font-size: 18px;
 	}
 	.salon h3 {
     font-size: 26px;
 	}
-	.salon p {;
+	.salon p {
     font-size: 14px;
     width: 430px;
     margin-top: 20px;
@@ -87,4 +91,9 @@
 	}
 } 
 @media (max-width: 575.98px) { 
+	.advice .advice1, .advice .advice2, .advice .advice3 {
+     width: 350px; 
+     margin: 0 auto;
+     padding: 0;
+	}
 }

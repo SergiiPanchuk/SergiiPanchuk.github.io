@@ -112,7 +112,8 @@
 	    width: 318px;
 	}
 	.mailing-form form .btn-submit {
-	    width: 100px;
+	    width: 110px;
+	    font-size: 12px;
 	}
 	.mailing-form form input {
 		width: 185px;
@@ -130,7 +131,8 @@
 	    margin-top: 260px;
 	}
 	.events .btn_event {
-   		 font-size: 14px;
+   		 font-size: 12px;
+   		 padding: 0;
 	}
 	.mailing-form form {
    		 padding: 20px 5px;

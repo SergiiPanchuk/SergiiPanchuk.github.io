@@ -96,4 +96,31 @@
      margin: 0 auto;
      padding: 0;
 	}
+	.salon p {
+    width: 330px;
+	}
+	.advice article a {
+    padding-top: 200px;
+	}
+	.advantage {
+    padding-left: 40px;
+	}
+	.mailing-form {
+    width: 328px;
+	}
+	.mailing-form form {
+    width: 318px;
+	}
+	.mailing-form form .btn-submit {
+    width: 100px;
+	}
+	.mailing-form form input {
+	width: 155px;
+	}
+	.advice button {
+    margin-top: 20px;
+	}
+	.main ul li a {
+    margin-left: 20px;
+	}
 }
